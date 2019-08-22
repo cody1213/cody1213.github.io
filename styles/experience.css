@@ -706,6 +706,9 @@ section
 {
 	padding-left: 25px;
 }
+.exp_title_container {
+	margin-left: 20px;
+}
 .exp_title
 {
 	font-size: 24px;
@@ -723,4 +726,13 @@ section
 .exp_text
 {
 	margin-top: 18px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.exp_item ul {
+	list-style-type: disc;
+}
+.exp_item ul li {
+	margin-top: 10px;
 }
