@@ -1,1 +1,1 @@
-# cody.cool web site
+# cody.cool
