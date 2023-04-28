@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="assets/images/logo.png" />
     <link rel="apple-touch-icon" href="assets/images/logo.png" />
     <link rel="apple-touch-icon-precomposed" href="assets/images/logo.png" />
-    <!-- Bootstrap CSS -->
     <title>Cody.Cool</title>
+    <style>
+      .adaptive {
+        background-color: #ffffff;
+        color: #000000;
+        text-align: center;
+      }
+      @media (prefers-color-scheme: dark) {
+        .adaptive {
+          background-color: #000000;
+          color: #ffffff;
+        }
+      }
+    </style>
   </head>
-  <body style="text-align: center">
+  <body class="adaptive">
     <img style="height: 90vh; width: auto" src="assets/images/logo.png" />
-    <p>Welcome to Cody.Cool. There's nothing to do here but please enjoy the weather.</p>
+    <p>Welcome to Cody.Cool. There's nothing to do here but please enjoy the view.</p>
     <p></p>
   </body>
 </html>
